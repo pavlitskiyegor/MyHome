@@ -15,14 +15,14 @@
                     <img class="logo" src="images/logo.png"/>
                 </div>
                 <div class="col-lg-2 col-lg-offset-7 col-md-3 col-md-offset-6 col-sm-5 col-sm-offset-1 col-xs-6 ">
-                    <button type="button" class="btn btn-primary">Подписаться</button>
+                    <a href="subscribe.php"><button type="button"  class="btn btn-primary" >  Подписаться</button></a>
                 </div>
             </div>
         </div>
     </div>
 <div class="container">
     <div class="row banner">
-        <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 banner_wrap">
             <img class="city" src="images/city.jpg">
         </div>
     </div>
