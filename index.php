@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Title</title>
         <link rel="stylesheet" href="css/libs/normolize.css">
         <link rel="stylesheet" href="css/libs/bootstrap.css">
@@ -11,18 +12,18 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-5 col-xs-6">
+                <div class="col-md-3 col-xs-6">
                     <img class="logo" src="images/logo.png"/>
                 </div>
-                <div class="col-lg-2 col-lg-offset-7 col-md-3 col-md-offset-6 col-sm-5 col-sm-offset-1 col-xs-6 ">
+                <div class="col-md-3 col-md-offset-6  col-xs-3 col-xs-offset-3 ">
                     <a href="subscribe.php"><button type="button"  class="btn btn-primary" >  Подписаться</button></a>
                 </div>
             </div>
         </div>
     </div>
-<div class="container">
+<div class="container content-wrapper">
     <div class="row banner">
-        <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 banner_wrap">
+        <div class="col-xs-12 banner_wrap">
             <img class="city" src="images/city.jpg">
         </div>
     </div>
@@ -34,7 +35,7 @@
     <div class="row article">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 article_title" ><h3> Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи</h3>
         </div>
-        <div class="col-lg-4 col-md-4 pic col-sm-12">
+        <div class="col-md-4 pic col-sm-12">
             <img class="art" src="images/art.jpg"/>
         </div>
             <div class="col-lg-8 col-md-8 col-sm-12 text">
@@ -72,10 +73,10 @@
     <div class="row article">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 article_title" ><h3> Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи</h3>
         </div>
-        <div class="col-lg-4 col-md-4 pic col-sm-12">
+        <div class="col-md-4 pic col-xs-12">
             <img class="art" src="images/art.jpg"/>
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 text">
+        <div class="col-md-8 col-xs-12 text">
             OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
             a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
             receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
@@ -86,13 +87,13 @@
             receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
             insurance companies.
         </div>
-        <div class="date col-lg-12 col-md-12 col-sm-12 col-xs-12">дд/мм/гг</div>
+        <div class="date col-xs-12">дд/мм/гг</div>
     </div>
 </div>
     <div class="footer">
         <div class="container aboutUs">
             <div class="row ">
-                <div class="col-lg-12 " >
+                <div class="col-xs-12 " >
                     <div class="aboutUs">
                         Canada IT Advance and Deliverance Corp. provides connected car, safety and security solutions worldwide. Our
                         company provides services for development and distribution of telematic solutions using the Internet and
@@ -103,8 +104,5 @@
             </div>
         </div>
     </div>
-
-
-
 </body>
 </html>
