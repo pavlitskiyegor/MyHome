@@ -12,8 +12,8 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <a href="index.php"><img class="logo" src="images/logo.png"/></a>
+                <div class="col-xs-2">
+                    <a href="index.php"><img class="logo" src="images/logo-house.png"/></a>
                 </div>
             </div>
         </div>
