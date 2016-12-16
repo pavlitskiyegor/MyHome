@@ -12,7 +12,7 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-xs-2">
+                <div class="col-md-2 col-xs-4">
                     <a href="index.php"><img class="logo" src="images/logo-house.png"/></a>
                 </div>
             </div>

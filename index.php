@@ -72,10 +72,10 @@ $all_news = [
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-xs-3">
+                <div class="col-md-2 col-xs-4">
                     <img class="logo" src="images/logo-house.png"/>
                 </div>
-                <div class="col-md-3 col-md-offset-6  col-xs-6 col-xs-offset-2 ">
+                <div class="col-md-3 col-md-offset-6  col-xs-8 ">
                     <a href="subscribe.php"><button type="button"  class="btn btn-primary" >Подписаться на рассылку</button></a>
                 </div>
             </div>
