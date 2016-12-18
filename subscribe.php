@@ -12,8 +12,9 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <a href="index.php"><img class="logo" src="images/logo-house.png"/></a>
+                <div class="col-md-12 col-xs-12">
+                    <a href="index.php"><span class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -21,12 +22,14 @@
     <div class="container content-wrapper">
         <div class="row banner">
             <div class="col-xs-12 banner_wrap">
-                <img class="city" src="images/city.jpg">
+                <img class="city" src="images/banner-005.jpg">
             </div>
         </div>
-    <div class="row">
-        <h2>Для подписки на почтовую рассылку введите в форму свои контактные данные</h2>
-        <form class="form-horizontal">
+    <div class="row ">
+        <span class="col-xs-12 title_subscribe">Для подписки на почтовую рассылку введите в форму свои контактные данные
+        </span>
+    <div class="subscribe">
+        <form action="register.php" method="post" class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-xs-3" for="lastName">ФИО:</label>
                 <div class="col-md-6 col-xs-9">
@@ -58,6 +61,7 @@
             </div>
         </form>
         </div>
+    </div>
     </div>
     <div class="footer">
         <div class="container aboutUs">

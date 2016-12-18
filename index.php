@@ -1,8 +1,18 @@
 <?php
 $all_news = [
+    ['title'=>"С 20 по 23 декабря рождественский караван Coca-Cola посетит Ростовскую область",
+        'image'=>"images/img-0001.jpg",
+        "content" => "Об этом сообщает пресс-служба компании.
+Первой остановкой станет село Кулешовка Азовского района. 
+20 декабря караван приедет в социально-реабилитационный центр «Пеликан», чтобы подарить детям подарки в рамках акции «Подари Подарок!». В тот же день рождественский караван посетит Азовский центр помощи детям.
+21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
+А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
+А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.",
+        "date" => "17.12.16"
+    ],
     [
-        'title'=>"Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи",
-        'image'=>"/images/art.jpg",
+        "title"=>"Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи",
+        'image'=>"images/art.jpg",
         "content" => "OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior, receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and insurance OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turnsa regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
                 receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
                 insurance companies. OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
@@ -13,7 +23,7 @@ $all_news = [
     ],
     [
         "title" => "Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2!",
-        "image"=> "/images/art.jpg",
+        "image"=> "images/art.jpg",
         "content" => " OBD-IIIIIIIIIII Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
                 a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
                 receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
@@ -26,36 +36,6 @@ $all_news = [
         "date" => "21.12.16"
     ],
     ];
-//$new1 = [
-//    "title" => "Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи",
-//    "image" => "/images/art.jpg",
-//    "content" => "OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-//                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turnsa regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance companies. OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-//                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance companies.",
-//    "date" => "22.12.16"
-//];
-//
-//$new2 = [
-//    "title" => "Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2!",
-//    "image" => "/images/art.jpg",
-//    "content" => " OBD-IIIIIIIIIII Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-//                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turnsa regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance companies. OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-//                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-//                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-//                insurance companies.",
-//    "date" => "21.12.16"
-//];
-
 ?>
 
 <!DOCTYPE html>
@@ -72,10 +52,10 @@ $all_news = [
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <img class="logo" src="images/logo-house.png"/>
+                <div class="col-md-8 col-xs-8">
+                    <span class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый</span>
                 </div>
-                <div class="col-md-3 col-md-offset-6  col-xs-8 ">
+                <div class="col-md-3 col-md-offset-1  col-xs-4 ">
                     <a href="subscribe.php"><button type="button"  class="btn btn-primary" >Подписаться на рассылку</button></a>
                 </div>
             </div>
@@ -84,7 +64,7 @@ $all_news = [
 <div class="container content-wrapper">
     <div class="row banner">
         <div class="col-xs-12 banner_wrap">
-            <img class="city" src="images/city.jpg">
+            <img class="city" src="images/banner-005.jpg">
         </div>
     </div>
     <div class="row">
@@ -112,12 +92,9 @@ $all_news = [
         <div class="container aboutUs">
             <div class="row ">
                 <div class="col-xs-12 " >
-                    <div class="aboutUs">
-                        Canada IT Advance and Deliverance Corp. provides connected car, safety and security solutions worldwide. Our
-                        company provides services for development and distribution of telematic solutions using the Internet and
-                        software running on servers, as well as on wearable devices: smart phones, tablets, smart watches and other
-                        gadgets.
-                    </div>
+
+                        Canada IT Advance and Deliverance Corp. provides connected car, safety and security solutions worldwide. Our company provides services for development and distribution of telematic solutions using the Internet and software running on servers, as well as on wearable devices: smart phones, tablets, smart watches and other gadgets.
+
                 </div>
             </div>
         </div>
