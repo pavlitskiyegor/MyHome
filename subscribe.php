@@ -1,3 +1,37 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', true);
+
+$user = [
+    "lastName" => $_POST['lastName'],
+    "postalAddress" => $_POST['postalAddress'],
+    "inputEmail" => $_POST['inputEmail'],
+    "phoneNumber" => $_POST['phoneNumber']
+];
+
+$file = file_get_contents("files/users.json");
+if ($file) {
+
+}else{
+
+}
+var_dump($file);
+
+//file_put_contents("files/users.json", json_encode($user))
+
+//$users_json = file_get_contents("files/users.json");
+//$users = json_decode($users_json, true);
+//var_dump($users);
+//var_dump (json_encode($user));
+//$users[] = $user;
+//file_put_contents("files/users.json", json_encode($users));
+
+//$file = fopen("files/test.txt", 'a+');
+//fwrite($file, 'aaaa');
+//fclose($file);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,8 +47,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <a href="index.php"><span class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый</span>
-                    </a>
+                    <div class="address"><a href="index.php">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый </a></div>
+
                 </div>
             </div>
         </div>
@@ -22,36 +56,36 @@
     <div class="container content-wrapper">
         <div class="row banner">
             <div class="col-xs-12 banner_wrap">
-                <img class="city" src="images/banner-005.jpg">
+                <img class="city" src="images/city.jpg">
             </div>
         </div>
     <div class="row ">
         <span class="col-xs-12 title_subscribe">Для подписки на почтовую рассылку введите в форму свои контактные данные
         </span>
     <div class="subscribe">
-        <form action="register.php" method="post" class="form-horizontal">
+        <form action="subscribe.php" method="post" class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-xs-3" for="lastName">ФИО:</label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="text" class="form-control" id="lastName" placeholder="Введите ФИО">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Введите ФИО">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-xs-3" for="postalAddress">Номер квартиры:</label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="number" class="form-control" id="postalAddress" placeholder="Введите номер квартипы">
+                    <input type="number" class="form-control" id="postalAddress" name="postalAddress" placeholder="Введите номер квартипы">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-xs-3" for="inputEmail">Email:</label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-xs-3" for="phoneNumber">Телефон:</label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Введите номер телефона">
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Введите номер телефона">
                 </div>
             </div>
             <div class="form-group">

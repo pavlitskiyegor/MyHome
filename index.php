@@ -64,12 +64,12 @@ $all_news = [
 <div class="container content-wrapper">
     <div class="row banner">
         <div class="col-xs-12 banner_wrap">
-            <img class="city" src="images/banner-005.jpg">
+            <img class="city" src="images/city.jpg">
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 news">
-            <h2>Новости</h2>
+            Новости
         </div>
     </div>
     <?php foreach ($all_news as $v){?>
