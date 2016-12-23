@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"lastName":null,"postalAddress":null,"inputEmail":null,"phoneNumber":null}
+=======
+[{"lastName":"\u041f\u0430\u0432\u043b\u0438\u0446\u043a\u0438\u0439 \u0415.\u0412","postalAddress":"1","inputEmail":"test-poflotski@mail.ru","phoneNumber":"123"},{"lastName":"poflotski","postalAddress":"2","inputEmail":"test-poflotski@mail.ru","phoneNumber":"4444"},{"lastName":null,"postalAddress":null,"inputEmail":null,"phoneNumber":null},{"lastName":null,"postalAddress":null,"inputEmail":null,"phoneNumber":null}]
+>>>>>>> Stashed changes

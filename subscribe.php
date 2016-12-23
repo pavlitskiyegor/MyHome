@@ -1,21 +1,23 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', true);
 
-//error_reporting(E_ALL);
-//ini_set('display_errors', true); //показывает ошибки
-//
-//$user = [
-//    "lastName" => $_POST['lastName'],
-//    "postalAddress" => $_POST['postalAddress'],
-//    "inputEmail" => $_POST['inputEmail'],
-//    "phoneNumber" => $_POST['phoneNumber']
-//];
-//
-//$file = file_get_contents("files/users.json");
-//var_dump($file);
-//
-//
-//file_put_contents("files/users.json", json_encode($user));
-//
+$user = [
+    "lastName" => $_POST['lastName'],
+    "postalAddress" => $_POST['postalAddress'],
+    "inputEmail" => $_POST['inputEmail'],
+    "phoneNumber" => $_POST['phoneNumber']
+];
+
+$file = file_get_contents("files/users.json");//считываем json строкку из файла и записываем в переменную $file
+$users = json_decode($file);//перевод из json строки в php синтаксис и записывает в переменную $users, в $users получаем пустой массив
+$users[] = $user;//добавляем в массив новый элемент $user получаем в $users масссив массивов [$user]
+$result_string = json_encode($users);//переводим переменную $users из php синтаксиса в json строкку
+file_put_contents("files/users.json", $result_string);//записываем полученную json строку $result_string в файл
+
+
+//file_put_contents("files/users.json", json_encode($user))
+
 //$users_json = file_get_contents("files/users.json");
 //$users = json_decode($users_json, true);
 //var_dump($users);
@@ -42,7 +44,7 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-12">
+                <div class="col-md-5 col-xs-12">
                     <div class="address"><a href="index.php">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</a></div>
 
                 </div>
@@ -52,7 +54,7 @@
     <div class="container content-wrapper">
         <div class="row banner">
             <div class="col-xs-12 banner_wrap">
-                <img class="city" src="images/city.jpg">
+                <img class="city" src="images/banner-005.jpg">
             </div>
         </div>
     <div class="row ">

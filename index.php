@@ -43,10 +43,10 @@ $all_news = [
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-5 col-sm-6 col-xs-12">
                     <div class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</div>
                 </div>
-                <div class="col-md-3 col-md-offset-5 col-sm-6 col-xs-12 btn-subscribe ">
+                <div class="col-md-3 col-md-offset-4 col-sm-6 col-xs-12 btn-subscribe ">
                     <a href="subscribe.php"><button type="button"  class="btn btn-primary" >Подписаться на рассылку</button></a>
                 </div>
             </div>
@@ -55,7 +55,7 @@ $all_news = [
 <div class="container content-wrapper">
     <div class="row banner">
         <div class="col-xs-12 banner_wrap">
-            <img class="city" src="images/city.jpg">
+            <img class="city" src="images/banner-005.jpg">
         </div>
     </div>
     <div class="row">
@@ -83,9 +83,7 @@ $all_news = [
         <div class="container aboutUs">
             <div class="row ">
                 <div class="col-xs-12 " >
-
-                    © 2008-2016. Все права защищены 2016-2016.
-
+                    © 2016-2016 Все права защищены.
                 </div>
             </div>
         </div>
