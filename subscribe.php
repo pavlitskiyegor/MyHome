@@ -1,25 +1,21 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', true);
-
-$user = [
-    "lastName" => $_POST['lastName'],
-    "postalAddress" => $_POST['postalAddress'],
-    "inputEmail" => $_POST['inputEmail'],
-    "phoneNumber" => $_POST['phoneNumber']
-];
-
-$file = file_get_contents("files/users.json");
-if ($file) {
-
-}else{
-
-}
-var_dump($file);
-
-//file_put_contents("files/users.json", json_encode($user))
-
+//error_reporting(E_ALL);
+//ini_set('display_errors', true); //показывает ошибки
+//
+//$user = [
+//    "lastName" => $_POST['lastName'],
+//    "postalAddress" => $_POST['postalAddress'],
+//    "inputEmail" => $_POST['inputEmail'],
+//    "phoneNumber" => $_POST['phoneNumber']
+//];
+//
+//$file = file_get_contents("files/users.json");
+//var_dump($file);
+//
+//
+//file_put_contents("files/users.json", json_encode($user));
+//
 //$users_json = file_get_contents("files/users.json");
 //$users = json_decode($users_json, true);
 //var_dump($users);
@@ -30,8 +26,8 @@ var_dump($file);
 //$file = fopen("files/test.txt", 'a+');
 //fwrite($file, 'aaaa');
 //fclose($file);
-
-?>
+//
+//?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,8 +42,8 @@ var_dump($file);
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-xs-12">
-                    <div class="address"><a href="index.php">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый </a></div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="address"><a href="index.php">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</a></div>
 
                 </div>
             </div>
@@ -60,34 +56,36 @@ var_dump($file);
             </div>
         </div>
     <div class="row ">
-        <span class="col-xs-12 title_subscribe">Для подписки на почтовую рассылку введите в форму свои контактные данные
+        <span class="col-xs-12 title_subscribe">Подписка на рассылку
         </span>
+        <div class="title_form">Для подписки на почтовую рассылку введите в форму свои контактные данные</div>
     <div class="subscribe">
         <form action="subscribe.php" method="post" class="form-horizontal">
             <div class="form-group">
-                <label class="control-label col-xs-3" for="lastName">ФИО:</label>
+                <label class="control-label form_text col-xs-3" for="lastName">ФИО:<span class="star"> *</span></label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Введите ФИО">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Фамилия Имя Отчество">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-xs-3" for="postalAddress">Номер квартиры:</label>
+                <label class="form_text control-label col-xs-3" for="postalAddress">Номер квартиры:<span class="star"> *</span></label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="number" class="form-control" id="postalAddress" name="postalAddress" placeholder="Введите номер квартипы">
+                    <input type="number" min="1" max="1000" class="form-control" id="postalAddress" name="postalAddress" placeholder="Номер квартиры">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-xs-3" for="inputEmail">Email:</label>
+                <label class="form_text control-label col-xs-3" for="inputEmail">Email:<span class="star"> *</span></label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Аадрес электронной почты">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-xs-3" for="phoneNumber">Телефон:</label>
+                <label class="form_text control-label col-xs-3" for="phoneNumber">Телефон:</label>
                 <div class="col-md-6 col-xs-9">
-                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Введите номер телефона">
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Номер телефона +74951234567">
                 </div>
             </div>
+                <div class="col-xs-12 star">* - поля обязательные поля для заполнения</div>
             <div class="form-group">
                 <div class="col-xs-offset-3 col-xs-9">
                     <input type="submit" class="btn btn-primary" value="Подписаться">
@@ -102,10 +100,7 @@ var_dump($file);
             <div class="row ">
                 <div class="col-xs-12 " >
                     <div class="aboutUs">
-                        Canada IT Advance and Deliverance Corp. provides connected car, safety and security solutions worldwide. Ourcol-xs-9
-                        company provides services for development and distribution of telematic solutions using the Internet and
-                        software running on servers, as well as on wearable devices: smart phones, tablets, smart watches and other
-                        gadgets.
+                        © 2008-2016. Все права защищены 2016-2016.
                     </div>
                 </div>
             </div>
