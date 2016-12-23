@@ -7,33 +7,24 @@ $all_news = [
 20 декабря караван приедет в социально-реабилитационный центр «Пеликан», чтобы подарить детям подарки в рамках акции «Подари Подарок!». В тот же день рождественский караван посетит Азовский центр помощи детям.
 21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
 А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
+А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.Об этом сообщает пресс-служба компании.
+Первой остановкой станет село Кулешовка Азовского района. 
+20 декабря караван приедет в социально-реабилитационный центр «Пеликан», чтобы подарить детям подарки в рамках акции «Подари Подарок!». В тот же день рождественский караван посетит Азовский центр помощи детям.
+21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
+А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
 А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.",
-        "date" => "17.12.16"
+        "date" => "17.12 - 2016/11:33 "
     ],
     [
         "title"=>"Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи",
-        'image'=>"images/art.jpg",
-        "content" => "OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior, receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and insurance OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turnsa regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-                insurance companies. OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-                insurance companies.",
-        "date" => "22.12.16"
-    ],
-    [
-        "title" => "Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2! Название статьи 2!",
-        "image"=> "images/art.jpg",
-        "content" => " OBD-IIIIIIIIIII Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-                insurance OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turnsa regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-                insurance companies. OBD-II Scanner is a multifunctional in-vehicle diagnostic and monitoring device running Android OS. It turns
-                a regular car into a smart car and allows you to take care of your relatives, analyze driver behavior,
-                receive emergency notifications, protect your car from theft, check vehicle data and save money on fuel and
-                insurance companies.",
-        "date" => "21.12.16"
+        'image'=>"images/no_foto.png",
+        "content" => "Об этом сообщает пресс-служба компании.
+Первой остановкой станет село Кулешовка Азовского района. 
+20 декабря караван приедет в социально-реабилитационный центр «Пеликан», чтобы подарить детям подарки в рамках акции «Подари Подарок!». В тот же день рождественский караван посетит Азовский центр помощи детям.
+21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
+А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
+А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.",
+        "date" => "16.12 - 2016/09:25"
     ],
     ];
 ?>
@@ -52,10 +43,10 @@ $all_news = [
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-xs-8">
-                    <span class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый</span>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</div>
                 </div>
-                <div class="col-md-3 col-md-offset-1  col-xs-4 ">
+                <div class="col-md-3 col-md-offset-5 col-sm-6 col-xs-12 btn-subscribe ">
                     <a href="subscribe.php"><button type="button"  class="btn btn-primary" >Подписаться на рассылку</button></a>
                 </div>
             </div>
@@ -93,7 +84,7 @@ $all_news = [
             <div class="row ">
                 <div class="col-xs-12 " >
 
-                        Canada IT Advance and Deliverance Corp. provides connected car, safety and security solutions worldwide. Our company provides services for development and distribution of telematic solutions using the Internet and software running on servers, as well as on wearable devices: smart phones, tablets, smart watches and other gadgets.
+                    © 2008-2016. Все права защищены 2016-2016.
 
                 </div>
             </div>
