@@ -13,7 +13,7 @@ $all_news = [
 21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
 А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
 А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.",
-        "date" => "17-12-2016/11:33 "
+        "date" => "17-12-2016 11:33 "
     ],
     [
         "title"=>"Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи Название статьи",
@@ -24,9 +24,9 @@ $all_news = [
 21 декабря сотрудники Coca-Cola поздравят детей-подопечных двух социально-реабилитационных центров для несовершеннолетних. 
 А вечером красные фирменные грузовики проедут по главным улицам города, чтобы подарить волшебную праздничную атмосферу его жителям.
 А 23 декабря караван отправится в Таганрог в городской центр помощи детям, оказавшимся в трудной жизненной ситуации.",
-        "date" => "16-12-2016/09:25"
+        "date" => "16-12-2016 09:25"
     ],
-    ];
+];
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ $all_news = [
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title</title>
+        <title>Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</title>
         <link rel="stylesheet" href="css/libs/normolize.css">
         <link rel="stylesheet" href="css/libs/bootstrap.css">
         <link rel="stylesheet" href="css/build/style.css" type="text/css">
@@ -46,8 +46,8 @@ $all_news = [
                 <div class="col-md-5 col-sm-7 col-xs-12">
                     <div class="address">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</div>
                 </div>
-                <div class="col-md-4 col-md-offset-2 col-sm-5 col-xs-12 btn-subscribe ">
-                    <a href="subscribe.php"><button type="button"  class="btn btn-primary" >Подписаться на рассылку</button></a>
+                <div class="col-md-4 col-md-offset-3 col-sm-5 col-xs-12 btn-subscribe ">
+                    <a href="subscribe.php"><button type="button"  class="btn btn-primary">Подписаться на рассылку</button></a>
                 </div>
             </div>
         </div>
