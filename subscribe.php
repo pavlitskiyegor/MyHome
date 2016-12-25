@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', true);
+//error_reporting(E_ALL);
+//ini_set('display_errors', true);
 
 $user = [
     "lastName" => $_POST['lastName'],
@@ -44,7 +44,7 @@ file_put_contents("files/users.json", $result_string);//записываем п�
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-xs-12">
+                <div class="col-md-5 col-sm-7 col-xs-12">
                     <div class="address"><a href="index.php">Жилой комлекс "Парковый" г.Таганрог, пер. Большой Садовый дом 13, корпус 5</a></div>
 
                 </div>
@@ -58,38 +58,38 @@ file_put_contents("files/users.json", $result_string);//записываем п�
             </div>
         </div>
     <div class="row ">
-        <span class="col-xs-12 title_subscribe">Подписка на рассылку
-        </span>
-        <div class="title_form">Для подписки на почтовую рассылку введите в форму свои контактные данные</div>
+        <div class="col-xs-12 title_subscribe">Подписка на рассылку
+        </div>
+        <div class="col-xs-12 title_form">Для подписки на почтовую рассылку введите в форму свои контактные данные</div>
     <div class="subscribe">
         <form action="subscribe.php" method="post" class="form-horizontal">
             <div class="form-group">
-                <label class="control-label form_text col-xs-3" for="lastName">ФИО:<span class="star"> *</span></label>
-                <div class="col-md-6 col-xs-9">
-                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Фамилия Имя Отчество">
+                <label class="control-label form_text col-md-3 col-sm-3 col-xs-12" for="lastName">ФИО:<span class="star"> *</span></label>
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                    <input type="text" class="input-align form-control" id="lastName" name="lastName" placeholder="Фамилия Имя Отчество">
                 </div>
             </div>
             <div class="form-group">
-                <label class="form_text control-label col-xs-3" for="postalAddress">Номер квартиры:<span class="star"> *</span></label>
-                <div class="col-md-6 col-xs-9">
+                <label class="form_text control-label col-md-3 col-sm-3 col-xs-12" for="postalAddress">Номер квартиры:<span class="star">*</span></label>
+                <div class="col-md-7 col-sm-7 col-xs-12">
                     <input type="number" min="1" max="1000" class="form-control" id="postalAddress" name="postalAddress" placeholder="Номер квартиры">
                 </div>
             </div>
             <div class="form-group">
-                <label class="form_text control-label col-xs-3" for="inputEmail">Email:<span class="star"> *</span></label>
-                <div class="col-md-6 col-xs-9">
-                    <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Аадрес электронной почты">
+                <label class="form_text control-label col-md-3 col-sm-3 col-xs-12" for="inputEmail">Email:<span class="star"> *</span></label>
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                    <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Аадрес электронной почты">
                 </div>
             </div>
-            <div class="form-group">
-                <label class="form_text control-label col-xs-3" for="phoneNumber">Телефон:</label>
-                <div class="col-md-6 col-xs-9">
+            <div class=" form-group">
+                <label class="form_text control-label col-md-3 col-sm-3 col-xs-12" for="phoneNumber">Телефон: </label>
+                <div class="col-md-7 col-sm-7 col-xs-12">
                     <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Номер телефона +74951234567">
                 </div>
             </div>
-                <div class="col-xs-12 star">* - поля обязательные поля для заполнения</div>
-            <div class="form-group">
-                <div class="col-xs-offset-3 col-xs-9">
+                <div class="col-xs-12 col-md-8 star">* - поля обязательные поля для заполнения</div>
+            <div class="col-xs-12 form-group">
+                <div class="form_text col-xs-12">
                     <input type="submit" class="btn btn-primary" value="Подписаться">
                 </div>
             </div>
