@@ -90,11 +90,9 @@ if (isset($_POST['submit'])) {
     </div>
 </div>
 <div class="container content-wrapper">
-    <div class="row banner">
-        <div class="col-xs-12 banner_wrap">
-            <img class="city" src="images/banner-007.jpg">
-        </div>
-    </div>
+    <?php
+        require('header.php');
+    ?>
     <div class="row ">
         <div class="col-xs-12 news">Подписаться на рассылку новостей</div>
         <?php if (isset($_POST['submit'])) { ?>
@@ -116,7 +114,7 @@ if (isset($_POST['submit'])) {
         <?php if(isset($_COOKIE["subcribe"]) && $_COOKIE["subcribe"] == EXIST_USER){
             setcookie ("subcribe", "", time() - 3600);
             ?>
-            <div class="col-xs-12 signed">
+            <div class="col-xs-12 successfully">
                 Вы уже подписаны на рассылку.
             </div>
         <?php } ?>

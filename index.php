@@ -13,6 +13,9 @@ $all_news = json_decode($news_json, true);
         <link rel="stylesheet" href="css/libs/normolize.css">
         <link rel="stylesheet" href="css/libs/bootstrap.css">
         <link rel="stylesheet" href="css/build/style.css" type="text/css">
+        <link rel="stylesheet" href="css/libs/animation.css">
+        <link rel="stylesheet" href="css/libs/fontello-ie7.css">
+
     </head>
     <body>
     <div class="header">
@@ -28,11 +31,9 @@ $all_news = json_decode($news_json, true);
         </div>
     </div>
 <div class="container content-wrapper">
-    <div class="row banner">
-        <div class="col-xs-12 banner_wrap">
-            <img class="city" src="images/banner-007.jpg">
-        </div>
-    </div>
+    <?php
+        require('header.php');
+    ?>
     <div class="row">
         <div class="col-xs-12 news">
             Новости
@@ -49,7 +50,7 @@ $all_news = json_decode($news_json, true);
             <div class="col-md-8 col-sm-12 text">
                 <?php echo $v['content']; ?>
             </div>
-        <div class="date col-xs-12"><?php echo $v['date'];?></div>
+        <div class="date col-xs-12"> <div title="Code: 0xe800" class="the-icons span3"><i class="demo-icon icon-calendar">&#xe800;</i> <span class="i-name">icon-calendar</span><span class="i-code">0xe800</span></div><?php echo $v['date'];?></div>
     </div>
     <?php } ?>
 
