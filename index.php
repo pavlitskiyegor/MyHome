@@ -15,6 +15,7 @@ $all_news = json_decode($news_json, true);
         <link rel="stylesheet" href="css/build/style.css" type="text/css">
         <link rel="stylesheet" href="css/libs/animation.css">
         <link rel="stylesheet" href="css/libs/fontello-ie7.css">
+        <link rel="stylesheet" href="css/libs/fontello.css">
 
     </head>
     <body>
@@ -50,7 +51,9 @@ $all_news = json_decode($news_json, true);
             <div class="col-md-8 col-sm-12 text">
                 <?php echo $v['content']; ?>
             </div>
-        <div class="date col-xs-12"> <div title="Code: 0xe800" class="the-icons span3"><i class="demo-icon icon-calendar">&#xe800;</i> <span class="i-name">icon-calendar</span><span class="i-code">0xe800</span></div><?php echo $v['date'];?></div>
+        <div class="date col-xs-12">
+            <i class="demo-icon icon-calendar"></i><?php echo $v['date'];?>
+        </div>
     </div>
     <?php } ?>
 
